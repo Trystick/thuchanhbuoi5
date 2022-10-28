@@ -16,7 +16,7 @@ int main()
 
 	cout << "Tong la: "<< a+b;
 
-	cout << "Nhan la: "<< nhan(4,5);
+	cout << "Nhan la: "<< nhan(400,500);
 	
 	cout << endl;
 	system("pause");
