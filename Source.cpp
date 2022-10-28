@@ -8,7 +8,7 @@ int chia(int a, int b);//SV D
 //Thay đổi ở câu 8
 int main()
 {
-	int a, b;
+	int a=4, b=10;
 	cout << "CHUONG TRINH TINH TOAN CO BAN" << endl;
 	//Cac ban code tai day
 
@@ -16,6 +16,8 @@ int main()
 
 	cout << "Tong la: "<< a+b;
 
+	cout << "Nhan la: "<< nhan(4,5);
+	
 	cout << endl;
 	system("pause");
 	return 0;
