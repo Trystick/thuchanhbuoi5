@@ -20,3 +20,7 @@ int main()
 	system("pause");
 	return 0;
 }
+
+int nhan(int a, int b){
+		return a + b;
+}
