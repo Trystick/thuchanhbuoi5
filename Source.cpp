@@ -11,7 +11,7 @@ int main()
 	int a, b;
 	cout << "CHUONG TRINH TINH TOAN CO BAN" << endl;
 	//Cac ban code tai day
-
+	cout << "Tong la: "<< a+b;
 	cout << endl;
 	system("pause");
 	return 0;
