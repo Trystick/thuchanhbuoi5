@@ -5,6 +5,7 @@ int cong(int a, int b);//SV A
 int tru(int a, int b);//SV B
 int nhan(int a, int b);//SV C
 int chia(int a, int b);//SV D
+//Thay đổi ở câu 8
 int main()
 {
 	int a, b;
