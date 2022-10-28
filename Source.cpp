@@ -22,5 +22,5 @@ int main()
 }
 
 int nhan(int a, int b){
-		return a + b;
+		return a * b;
 }
