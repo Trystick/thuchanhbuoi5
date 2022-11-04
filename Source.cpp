@@ -30,6 +30,8 @@ int main()
 	cout << "Tong la: "<< a+b;
 
 	cout << "Nhan la: "<< nhan(400,500);
+	
+	cout << "kết quả " << sosanh(a, b);
 
 	if (kiemTraSoNguyenTo(n) == true) {
 		cout << n << " la so nguyen to";
@@ -44,4 +46,10 @@ int main()
 
 int nhan(int a, int b){
 		return a * b;
+}
+int sosanh(int a, int b) {
+	if (a > b)
+		cout << "số thứ 1 lớn hơn số thứ 2";
+	else
+		cout << "số thứ 2 lớn hơn số thứ 1";
 }
