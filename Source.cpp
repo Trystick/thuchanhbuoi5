@@ -26,3 +26,15 @@ int main()
 int nhan(int a, int b){
 		return a * b;
 }
+
+bool kiemTraSCP(int a) {
+	if (a < 1)
+		return false;
+	int i = 1;
+	while (i*i <= a) {
+		if (i*i == a)
+			return true;
+		i++;
+	}
+	return false;
+}
